@@ -1,0 +1,11 @@
+{
+  "service": {
+    "name": "Friends Awards",
+    "description": "Annual Friends Awards",
+    "status": "not_started",
+    "active_round_id": null
+  },
+  "participants": [],
+  "categories": [],
+  "rounds": []
+}

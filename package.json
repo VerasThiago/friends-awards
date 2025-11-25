@@ -1,0 +1,24 @@
+{
+  "name": "friends-awards",
+  "version": "1.0.0",
+  "description": "Friends Awards Monolith Service",
+  "main": "src/api/server.js",
+  "scripts": {
+    "start": "cd src/frontend && npm run build && cd ../.. && node src/api/server.js",
+    "dev:api": "nodemon src/api/server.js",
+    "dev:frontend": "cd src/frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
